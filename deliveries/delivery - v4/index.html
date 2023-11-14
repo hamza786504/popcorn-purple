@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+      integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <title>Home - Popcorn Purple</title>
+  </head>
+
+  <body>
+    <section class="main" style="height: 100vh;">
+      <div class="container-fluid" style="height: 100vh;">
+        <div class="row d-flex d-md-none justify-content-between">
+          <div class="col-6 text-start">
+            <select class="language border-dark text-dark d-inline-block px-0 d-flex align-items-center justify-content-center rounded" style="width: 40px; height: 40px;">
+              <option value="de/index.html">DE</option>
+              <option value="index.html" selected>EN</option>
+            </select>
+          </div>
+          <div class="col-6 text-end">
+            <button
+              type="button"
+              class="border-0 bg-transparent" style="font-size: 20px;"
+              id="hamburger"
+            >
+            <div class="bars">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            </button>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center d-flex align-items-center flex-column"
+        >
+          <div class="col-12 pt-0 pt-md-4 h-100 d-flex flex-column text-center">
+            <div class="flex-fill d-flex flex-column justify-content-center align-items-center">
+              <div class="logo mx-auto">
+                <img src="images/logo.svg" alt="logo" />
+              </div>
+              <h1 class="heading font-weight-normal">
+                Make your life pop by connecting with others in a heartbeat.
+              </h1>
+              <p class="mb-0">
+                Popcorn Purple will help you to easily exchange contacts with new
+                encounters. It’s simple and magical, go check it out.
+              </p>
+  
+              <div
+                class="sources d-flex flex-column flex-sm-row align-items-center justify-content-center flex-wrap flex-nowrap"
+              >
+                <img
+                  src="images/google-play.png"
+                  class="mt-2 mt-md-3"
+                  alt="google-play"
+                />
+                <img
+                  src="images/app-store.png"
+                  class="mt-2 mt-md-3 ms-sm-4"
+                  alt="app-store"
+                />
+              </div>
+            </div>
+
+            <div class="bottom d-none d-md-flex justify-content-center">
+              <a href="privacy-policy.html">Privacy Policy</a>
+              <a href="terms-use.html">Terms of Use</a>
+              <a href="/" class="icon"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="/" class="icon"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="/" class="icon"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+
+              <select name="language" id="language" class="">
+                <option value="index.html" selected>English(Us)</option>
+                <option value="de/index.html">Deutsch (Deutschland)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sidebar bg-white position-fixed px-3">
+      <button type="button" id="close_sidebar" class="close_sidebar bg-transparent border-0 position-absolute" style="font-size: 25px;">
+        <div class="bars">
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      <ul class="menu ps-0">
+        <li style="border-bottom: 1px solid gray; width: 100%; text-align: center;"><a href="privacy-policy.html">Privary Policy</a></li>
+        <li style="border-bottom: 1px solid gray; width: 100%; text-align: center;"><a href="terms-use.html">Terms of Use</a></li>
+        <li style="border-bottom: 1px solid gray; width: 100%; text-align: center;"><a href="/">Facebook</a></li>
+        <li style="border-bottom: 1px solid gray; width: 100%; text-align: center;"><a href="/">Instagram</a></li>
+        <li style="border-bottom: 1px solid gray; width: 100%; text-align: center;"><a href="/">Twitter</a></li>
+      </ul>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+      integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
